@@ -33,6 +33,10 @@
   .timeline-item {
     position: relative;
     padding-bottom: 2rem;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease forwards;
   }
   
   .timeline-item:last-child {
@@ -50,6 +54,11 @@
     background: #2D3748;
     border: 2px solid #fff;
     margin-left: -4px;
+    transition: transform 0.2s ease;
+  }
+  
+  .timeline-item.expanded::before {
+    transform: scale(1.2);
   }
   
   .timeline-content {
@@ -58,6 +67,7 @@
   
   .job-header {
     margin-bottom: 1rem;
+    position: relative;
   }
   
   .role-company {
@@ -69,8 +79,9 @@
     font-weight: 600;
   }
   
-  .role {
-    color: #2D3748;
+  .at {
+    color: #718096;
+    font-weight: normal;
   }
   
   .company {
@@ -91,6 +102,15 @@
     padding: 0;
     list-style: none;
     font-size: 0.9rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+  .achievements.show {
+    max-height: 1000px;
+    opacity: 1;
   }
   
   .achievements li {
@@ -107,6 +127,13 @@
     position: absolute;
     left: 0;
     color: #4A5568;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
   @media (max-width: 768px) {
