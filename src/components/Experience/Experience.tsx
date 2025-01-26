@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Experience.css';
 import { cvData } from '../../data/cvData';
 
@@ -8,7 +8,16 @@ interface ExperienceProps {
 
 const Experience = ({ isPrintMode = false }: ExperienceProps) => {
   const { experience } = cvData;
-  const [expandedItems, setExpandedItems] = useState<number[]>(isPrintMode ? experience.map((_, i) => i) : [0]);
+  const [expandedItems, setExpandedItems] = useState<number[]>([0]);
+
+  // Efeito para reagir às mudanças do isPrintMode em App.tsx
+  useEffect(() => {
+    if (isPrintMode) {
+      setExpandedItems(experience.map((_, index) => index));
+    } else {
+      setExpandedItems([0]);
+    }
+  }, [isPrintMode, experience]);
 
   const toggleItem = (index: number) => {
     if (!isPrintMode) {

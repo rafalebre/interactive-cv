@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+.mode-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background: #2D3748;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.mode-toggle:hover {
+  background: #4A5568;
+}
+
+@media print {
+  .mode-toggle {
+    display: none;
+  }
+}
