@@ -1,3 +1,4 @@
+/* Experience.css */
 .experience {
     padding: 2rem;
     background: #ffffff;
@@ -33,7 +34,6 @@
   .timeline-item {
     position: relative;
     padding-bottom: 2rem;
-    cursor: pointer;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 0.5s ease forwards;
@@ -57,17 +57,19 @@
     transition: transform 0.2s ease;
   }
   
-  .timeline-item.expanded::before {
-    transform: scale(1.2);
-  }
-  
   .timeline-content {
     padding-left: 1rem;
   }
   
   .job-header {
     margin-bottom: 1rem;
-    position: relative;
+    cursor: pointer;
+  }
+  
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .role-company {
@@ -86,6 +88,16 @@
   
   .company {
     color: #4A5568;
+  }
+  
+  .chevron {
+    color: #718096;
+    transition: transform 0.3s ease;
+    min-width: 20px;
+  }
+  
+  .chevron.expanded {
+    transform: rotate(180deg);
   }
   
   .job-info {
@@ -133,6 +145,21 @@
     to {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+  
+  @media print {
+    .experience {
+      box-shadow: none;
+    }
+    
+    .achievements {
+      max-height: none !important;
+      opacity: 1 !important;
+    }
+    
+    .chevron {
+      display: none;
     }
   }
   
