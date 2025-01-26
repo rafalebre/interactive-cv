@@ -8,8 +8,8 @@ export const cvData: CVData = {
     phone: "+34 644 66 41 57",
     location: "Barcelona",
     links: {
-      linkedin: "www.linkedin.com/in/rafael-s-lebre",
-      github: "github.com/rafalebre"
+      linkedin: "https://www.linkedin.com/in/rafael-s-lebre",
+      github: "https://github.com/rafalebre"
     }
   },
   summary: "Dynamic professional with a background in Marketing and a postgraduate specialisation in Digital Marketing, recently skilled in Full Stack Web Development from a 2023 bootcamp. Proficient in React, Python, and developing applications with significant market potential. Proven track record in spearheading successful marketing initiatives, notably in SEO and content strategies across platforms like TikTok and Meta. Eager to merge programming and marketing skills to drive innovative solutions in a tech-forward environment. Open to remote opportunities or potential relocation.",
