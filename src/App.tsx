@@ -1,11 +1,12 @@
 import Header from './components/Header/Header';
 import './App.css';
+import Experience from './components/Experience/Experience';
 
 function App() {
   return (
     <div className="app">
       <Header />
-      {/* Outros componentes serão adicionados aqui */}
+      <Experience />
     </div>
   );
 }

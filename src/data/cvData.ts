@@ -66,7 +66,7 @@ export const cvData: CVData = {
       ]
     },
     {
-      company: "Music Label",
+      company: "Crasso Music Label",
       role: "Marketing Assistant and Social Media Specialist",
       period: "Jan '15 - Dec '16",
       location: "São Paulo Area, Brazil",
