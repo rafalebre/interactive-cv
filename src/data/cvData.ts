@@ -92,8 +92,8 @@ export const cvData: CVData = {
     },
     {
       institution: "Centro Universitário da Grande Dourados",
-      degree: "Marketing, Marketing",
-      period: "Jan '18 - Dec '21"
+      degree: "Bachelor's degree, Marketing",
+      period: "Jan '18 - Dec '20"
     },
     {
       institution: "CETAP - RJ",
