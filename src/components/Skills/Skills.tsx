@@ -7,13 +7,15 @@ const Skills = () => {
   return (
     <section className="skills">
       <h2 className="section-title">Professional Skills</h2>
-      <div className="skills-container">
+      <div className="skills-grid">
         {skills.map((category, index) => (
-          <div key={index} className="skill-category">
-            <span className="category-title">{category.category}</span>
-            <span className="skill-items">
-              {category.items.join(' • ')}
-            </span>
+          <div key={index} className="skill-card">
+            <h3 className="category-title">{category.category}</h3>
+            <div className="skill-tags">
+              {category.items.map((skill, i) => (
+                <span key={i} className="skill-tag">{skill}</span>
+              ))}
+            </div>
           </div>
         ))}
       </div>

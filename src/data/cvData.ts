@@ -126,20 +126,25 @@ export const cvData: CVData = {
   ],
   skills: [
     {
-      category: "Development",
-      items: ["JavaScript", "React.js", "Python", "Flask", "TypeScript", "REST API", "Git", "Bootstrap"]
+      category: "Technical Skills",
+      items: [
+        "JavaScript", "React.js", "Python", "Flask", "TypeScript", 
+        "REST API", "Git", "Bootstrap", "PostgreSQL", "MySQL", "MongoDB"
+      ]
     },
     {
-      category: "Databases",
-      items: ["PostgreSQL", "MySQL", "MongoDB"]
+      category: "Marketing & Digital",
+      items: [
+        "Digital Marketing", "Social Media Marketing", "SEO",
+        "Content Strategy", "KPI Analysis"
+      ]
     },
     {
-      category: "Marketing",
-      items: ["Digital Marketing", "Social Media Marketing", "SEO", "Content Strategy", "KPI Analysis"]
-    },
-    {
-      category: "Project Management",
-      items: ["Market Analysis", "Content Analysis", "Team Coordination", "Campaign Management"]
+      category: "Management & Analysis",
+      items: [
+        "Project Management", "Market Analysis", "Content Analysis",
+        "Team Coordination", "Campaign Management"
+      ]
     }
   ]
 };

@@ -23,6 +23,7 @@ export interface Education {
   
   export interface Skill {
     category: string;
+    description?: string;
     items: string[];
   }
   
