@@ -12,7 +12,7 @@ export const cvData: CVData = {
       github: "https://github.com/rafalebre"
     }
   },
-  summary: "Dynamic professional with a background in Marketing and a postgraduate specialisation in Digital Marketing, recently skilled in Full Stack Web Development from a 2023 bootcamp. Proficient in React, Python, and developing applications with significant market potential. Proven track record in spearheading successful marketing initiatives, notably in SEO and content strategies across platforms like TikTok and Meta. Eager to merge programming and marketing skills to drive innovative solutions in a tech-forward environment. Open to remote opportunities or potential relocation.",
+  summary: "Dynamic professional with a background in Marketing and a postgraduate specialisation in Digital Marketing, recently skilled in Full Stack Web Development from a 2023 bootcamp. Specialised in JS, React, Python, SQL, and related technologies, with experience creating applications aimed at strong market impact. Experience driving effective marketing campaigns, particularly in SEO and content analysis on platforms like TikTok and Meta. Eager to merge programming and marketing skills to drive innovative solutions in a tech-forward environment. Open to remote opportunities or potential relocation.",
   experience: [
     {
       company: "TELUS",
@@ -81,24 +81,28 @@ export const cvData: CVData = {
   ],
   education: [
     {
+      degree: "Full-Stack Web Development",
       institution: "4Geeks Academy España",
-      degree: "Full-Stack web development, Computer Programming",
-      period: "Dec '22 - Jun '23"
+      period: "Dec '22 - Jun '23",
+      certificateFile: "4geeks-certificate.pdf"
     },
     {
-      institution: "Faculdade Projeção",
       degree: "Master's degree, Digital Marketing",
-      period: "Jan '21 - Dec '21"
+      institution: "Faculdade Projeção",
+      period: "Jan '21 - Dec '21",
+      certificateFile: "projecao-certificate.pdf"
     },
     {
-      institution: "Centro Universitário da Grande Dourados",
       degree: "Bachelor's degree, Marketing",
-      period: "Jan '18 - Dec '20"
+      institution: "Centro Universitário da Grande Dourados",
+      period: "Jan '18 - Dec '20",
+      certificateFile: "unigran-certificate.pdf"
     },
     {
+      degree: "Técnico em Gestão de Eventos",
       institution: "CETAP - RJ",
-      degree: "Técnico em Gestão de eventos, Gestão e Planejamento de Eventos",
-      period: "Jan '11 - Jan '13"
+      period: "Jan '11 - Jan '13",
+      certificateFile: "cetap-certificate.pdf"
     }
   ],
   projects: [

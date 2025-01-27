@@ -1,62 +1,105 @@
 .education {
-    padding: 1.5rem 2rem;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    margin-top: 1.5rem;
-  }
-  
-  .section-title {
-    text-align: center;
-    font-size: 1.75rem;
-    color: #1a202c;
-    margin: 0 0 1rem;
-  }
-  
+  padding: 1.5rem 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.75rem;
+  color: #1a202c;
+  margin: 0 0 1.5rem;
+}
+
+.education-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.education-card {
+  padding: 1rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.education-card:hover {
+  border-color: #cbd5e0;
+  background: #f1f5f9;
+}
+
+.degree {
+  font-size: 1rem;
+  color: #2d3748;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.period {
+  color: #718096;
+  font-size: 0.9rem;
+  text-align: center;
+  display: block;
+}
+
+.institution-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.institution {
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.certificate-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #718096;
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.certificate-link:hover {
+  color: #2d3748;
+  background: #edf2f7;
+}
+
+.certificate-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 768px) {
   .education-list {
-    max-width: 900px;
-    margin: 0 auto;
+    grid-template-columns: 1fr;
   }
   
-  .education-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 0;
+  .education {
+    padding: 1rem;
   }
-  
-  .education-info {
-    display: flex;
-    gap: 0.5rem;
-  }
-  
-  .degree {
-    color: #2D3748;
-    font-weight: 500;
-  }
-  
-  .institution {
-    color: #4A5568;
-  }
-  
-  .period {
-    color: #718096;
-    font-size: 0.9rem;
-  }
-  
-  @media (max-width: 768px) {
-    .education {
-      padding: 1rem 1.5rem;
-    }
-    
-    .education-item {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.25rem;
-    }
-    
-    .education-info {
-      flex-direction: column;
-      gap: 0.25rem;
-    }
-  }
+}

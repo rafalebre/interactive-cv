@@ -1,9 +1,10 @@
 // Define types for CV data
 export interface Education {
-    institution: string;
-    degree: string;
-    period: string;
-  }
+  degree: string;
+  institution: string;
+  period: string;
+  certificateFile?: string; 
+}
   
   export interface Experience {
     company: string;
