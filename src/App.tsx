@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header/Header';
 import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <div className="app">
         <Header />
         <Experience isPrintMode={isPrintMode} />
+        <Projects isPrintMode={isPrintMode} />
       </div>
     </>
   );

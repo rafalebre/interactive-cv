@@ -1,0 +1,146 @@
+/* src/components/Projects/Projects.css */
+.projects {
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 1.75rem;
+    color: #1a202c;
+    margin: 0 0 2rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background: #ffffff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .project-card:hover {
+    border-color: #CBD5E0;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .project-title {
+    font-size: 1.1rem;
+    color: #2D3748;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .chevron {
+    color: #718096;
+    transition: transform 0.3s ease;
+    min-width: 20px;
+  }
+  
+  .chevron.expanded {
+    transform: rotate(180deg);
+  }
+  
+  .project-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .project-content.show {
+    max-height: 500px;
+    opacity: 1;
+  }
+  
+  .project-description {
+    color: #4A5568;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0 0 1rem;
+  }
+  
+  .project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-tag {
+    background: #EDF2F7;
+    color: #2D3748;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  .project-link {
+    display: inline-block;
+    background: #2D3748;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
+  }
+  
+  .project-link:hover {
+    background: #4A5568;
+  }
+  
+  @media print {
+    .projects {
+      box-shadow: none;
+    }
+  
+    .project-card {
+      break-inside: avoid;
+      border: none;
+      padding: 1rem 0;
+    }
+  
+    .project-content {
+      max-height: none !important;
+      opacity: 1 !important;
+    }
+  
+    .chevron {
+      display: none;
+    }
+  
+    .project-link {
+      border: 1px solid #2D3748;
+      color: #2D3748;
+      background: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .projects {
+      padding: 1.5rem;
+    }
+  
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
