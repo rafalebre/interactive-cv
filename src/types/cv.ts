@@ -18,6 +18,7 @@ export interface Education {
     description: string;
     technologies: string[];
     link: string;
+    deployedUrl?: string;
   }
   
   export interface Skill {

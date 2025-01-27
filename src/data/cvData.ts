@@ -103,22 +103,25 @@ export const cvData: CVData = {
   ],
   projects: [
     {
-      title: "Swap Cycle",
-      description: "A capstone full-stack project for user-to-user bartering, crafted with React.js, Flask, and MySQL. This application features dynamic listings, interactive maps, and currency conversion",
-      technologies: ["React.js", "Flask", "MySQL", "Maps API", "Currency API"],
-      link: "https://github.com/rafalebre/Swap_Cycle"
-    },
-    {
       title: "React IG",
       description: "A full-stack social platform using React, Redux, and MongoDB, replicating core Instagram features like photo sharing, likes, and comments to demonstrate proficiency in modern web development",
       technologies: ["React", "Redux", "MongoDB", "Node.js", "Express"],
-      link: "https://github.com/rafalebre/React_IG"
+      link: "https://github.com/rafalebre/React_IG",
+      deployedUrl: "https://react-ig-nu.vercel.app/"
+    },
+    {
+      title: "Mini Blog",
+      description: "A full-featured blogging platform built with React and Firebase, demonstrating CRUD operations and user authentication",
+      technologies: ["React", "Firebase", "Authentication", "Cloud Storage"],
+      link: "https://github.com/rafalebre/Mini-Blog",
+      deployedUrl: "https://mini-blog-omega-nine.vercel.app/"
     },
     {
       title: "Secret Word",
       description: "A React-based game for guessing words from hints, showcasing my skills in components, hooks, and UI design",
       technologies: ["React", "Hooks", "CSS", "JavaScript"],
-      link: "https://github.com/rafalebre/Secret_Word_EN"
+      link: "https://github.com/rafalebre/Secret_Word_EN",
+      deployedUrl: "https://secret-word-en.vercel.app/"
     }
   ],
   skills: [
