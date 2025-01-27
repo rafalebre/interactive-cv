@@ -113,7 +113,7 @@ export const cvData: CVData = {
       title: "Mini Blog",
       description: "A full-featured blogging platform built with React and Firebase, demonstrating CRUD operations and user authentication",
       technologies: ["React", "Firebase", "Authentication", "Cloud Storage"],
-      link: "https://github.com/rafalebre/Mini-Blog",
+      link: "https://github.com/rafalebre/MiniBlog",
       deployedUrl: "https://mini-blog-omega-nine.vercel.app/"
     },
     {
