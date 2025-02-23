@@ -5,7 +5,6 @@ export const cvData: CVData = {
     name: "Rafael Lebre",
     title: "Full Stack Developer | JS | React | Python | Flask | CSS | REST API | SQL | MongoDB | GIT",
     email: "rafaellebre100@gmail.com",
-    phone: "+34 644 66 41 57",
     location: "Barcelona",
     links: {
       linkedin: "https://www.linkedin.com/in/rafael-s-lebre",
@@ -76,6 +75,18 @@ export const cvData: CVData = {
         "Organized an event that led to record-breaking sales of records and significantly increased followers for both the label and its bands",
         "Retained existing customers and broadened market reach by coordinating live presentations in new cities",
         "Analyzed web data, managed content, and delivered detailed performance reports"
+      ]
+    },
+    {
+      company: "Engenharia de Eventos",
+      role: "Event Manager",
+      period: "Jun '12 - Dec '14",
+      location: "São Paulo, Brazil",
+      achievements: [
+        "Managed full-cycle event planning and vendor negotiations for large-scale sports events",
+        "Orchestrated event logistics including staging, technical services, and guest experience",
+        "Led budget control, delivering events within targets while exceeding expectations",
+        "Developed creative event concepts ensuring seamless execution and maximum impact"
       ]
     }
   ],

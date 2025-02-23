@@ -33,7 +33,6 @@ export interface Education {
       name: string;
       title: string;
       email: string;
-      phone: string;
       location: string;
       links: {
         linkedin: string;
