@@ -5,7 +5,7 @@ export const cvData: CVData = {
     name: "Rafael Lebre",
     title: "Full Stack Developer | JS | React | Python | Flask | CSS | REST API | SQL | MongoDB | GIT",
     email: "rafaellebre100@gmail.com",
-    location: "Barcelona",
+    location: "Prague",
     links: {
       linkedin: "https://www.linkedin.com/in/rafael-s-lebre",
       github: "https://github.com/rafalebre"
@@ -16,7 +16,7 @@ export const cvData: CVData = {
     {
       company: "TELUS",
       role: "Social Media Content Analyst",
-      period: "May '21 - Sep '23",
+      period: "May '21 - Sep '24",
       location: "Barcelona, Catalonia, Spain",
       achievements: [
         "Executed in-depth monitoring and analysis of social media user-generated content, upholding META's privacy and safety guidelines and lowering the risk of non-compliance",
