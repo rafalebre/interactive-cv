@@ -5,7 +5,7 @@ export const cvData: CVData = {
     name: "Rafael Lebre",
     title: "Full Stack Developer | JS | React | Python | Flask | CSS | REST API | SQL | MongoDB | GIT",
     email: "rafaellebre100@gmail.com",
-    location: "Prague",
+    location: "Spain",
     links: {
       linkedin: "https://www.linkedin.com/in/rafael-s-lebre",
       github: "https://github.com/rafalebre"
