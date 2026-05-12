@@ -20,7 +20,7 @@ export const cvData: CVData = {
       location: "Kraków, Poland",
       achievements: [
         "Reviews Google Maps business listing edit requests, applying policy-based decisions to accept, reject, or escalate cases across address, hours, name, categories, and related attributes",
-        "Validates listing changes through multi-source research — authority sites, social media, Street View, and reviews — when direct phone contact with the merchant is unsuccessful",
+        "Validates listing changes through multi-source research: authority sites, social media, Street View, and reviews when direct phone contact with the merchant is unsuccessful",
         "Processes 50–110 listings daily across varied-complexity queues, consistently maintaining error rate below the recommended 2% threshold"
       ]
     },
