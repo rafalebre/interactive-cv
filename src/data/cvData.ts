@@ -5,7 +5,7 @@ export const cvData: CVData = {
     name: "Rafael Lebre",
     title: "Full Stack Developer | JS | React | Python | Flask | CSS | REST API | SQL | MongoDB | GIT",
     email: "rafaellebre100@gmail.com",
-    location: "Spain",
+    location: "Poland",
     links: {
       linkedin: "https://www.linkedin.com/in/rafael-s-lebre",
       github: "https://github.com/rafalebre"
@@ -13,6 +13,17 @@ export const cvData: CVData = {
   },
   summary: "Dynamic professional with a background in Marketing and a postgraduate specialisation in Digital Marketing, recently skilled in Full Stack Web Development from a 2023 bootcamp. Specialised in JS, React, Python, SQL, and related technologies, with experience creating applications aimed at strong market impact. Experience driving effective marketing campaigns, particularly in SEO and content analysis on platforms like TikTok and Meta. Eager to merge programming and marketing skills to drive innovative solutions in a tech-forward environment. Open to remote opportunities or potential relocation.",
   experience: [
+    {
+      company: "Cognizant",
+      role: "Senior Process Executive",
+      period: "Aug '25 - Present",
+      location: "Kraków, Poland",
+      achievements: [
+        "Reviews Google Maps business listing edit requests, applying policy-based decisions to accept, reject, or escalate cases across address, hours, name, categories, and related attributes",
+        "Validates listing changes through multi-source research — authority sites, social media, Street View, and reviews — when direct phone contact with the merchant is unsuccessful",
+        "Processes 50–110 listings daily across varied-complexity queues, consistently maintaining error rate below the recommended 2% threshold"
+      ]
+    },
     {
       company: "TELUS",
       role: "Social Media Content Analyst",
